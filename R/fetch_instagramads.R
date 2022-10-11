@@ -12,7 +12,8 @@
 #'
 #' @examples
 #' \dontrun{
-#' fetch_instagramads <- (api_key = "your api key",
+#' # Note that api_key needs to be provided by the user.
+#' my_instagramads_data <- fetch_instagramads(api_key = "your api key",
 #' date_from = "2022-10-01",
 #' date_to = "2022-10-02",
 #' fields = c("campaign", "clicks",
@@ -26,10 +27,10 @@ fetch_instagramads <-
                       "spend", "impressions", "date")) {
     if(is.null(date_from) | is.null(date_to)){
       if(is.null(date_from)){
-        print("date_from not defined. Extracting data for the last week as default.")
+        warning("date_from not defined. Extracting data for the last week as default.")
       }
       if(is.null(date_to)){
-        print("date_to not defined. Extracting data for the last week as default.")
+        warning("date_to not defined. Extracting data for the last week as default.")
       }
       date_to <- Sys.Date()
       date_from <- Sys.Date() - 7

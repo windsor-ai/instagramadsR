@@ -1,4 +1,4 @@
-#' Sample data of Facebook ads from the Windsor API.
+#' Sample data of Instagram ads from the Windsor API.
 #'
 #' A dataset containing sample facebook ads data
 #' fetched from windsor.ai API. See more at:  https://windsor.ai/
@@ -12,4 +12,4 @@
 #'   \item{date}{date}
 #' }
 #' @source \url{https://windsor.ai/}
-"my_facebookads_data"
+"my_instagramads_data"
