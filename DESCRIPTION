@@ -5,8 +5,7 @@ Version: 0.1.0
 Authors@R: c(
     person("Pablo", "Sanchez", email = "pablosama@outlook.es", role = c("cre","aut")),
     person("Windsor.ai", email = "admin@windsor.ai", role = "cph"))
-Description: Collect  marketing data from facebook Ads using the 'Windsor.ai' API <https://windsor.ai/api-fields/>.
-    Use four spaces when indenting paragraphs within the Description.
+Description: Collect  marketing data from Instagram Ads using the 'Windsor.ai' API <https://windsor.ai/api-fields/>.
 License: GPL-3
 URL: https://windsor.ai/
 Depends:

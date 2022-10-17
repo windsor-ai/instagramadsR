@@ -31,6 +31,7 @@ A function to fetch Instagram Ads data from the windsor.ai API
 }
 \examples{
 \dontrun{
+# Note that api_key needs to be provided by the user.
 my_instagramads_data <- fetch_instagramads(api_key = "your api key",
 date_from = "2022-10-01",
 date_to = "2022-10-02",
