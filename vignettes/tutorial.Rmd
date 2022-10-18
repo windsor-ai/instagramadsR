@@ -51,7 +51,7 @@ str(my_instagramads_data)
 
 ## Analyzing our Instagram  and Instagram ad campaign data 
 
-Now we can analyze our Facaebook Ads data. For instance, let's compare the two campaings we have to see which one performed better the last 100 days. 
+Now we can analyze our Instagram Ads data. For instance, let's compare the two campaings we have to see which one performed better the last 100 days. 
 
 ```{r}
 ggplot(my_instagramads_data, aes(y = clicks, fill = campaign)) + geom_boxplot()
